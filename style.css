@@ -209,3 +209,42 @@ main {
 #slide-3:target ~ .slider-container .slides {
   transform: translateX(-66.666%);
 }
+
+/* ========================================== */
+/* ============= about section =============== */
+/* =========================================== */
+
+.about-section {
+  scroll-margin-top: calc(var(--header-height) + 20px);
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 40px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: var(--primary);
+}
+
+.about-section p {
+  color: var(--text-muted);
+  max-width: 700px;
+  margin: 0 auto 24px auto;
+}
+
+/* ========================================== */
+/* ============= footer section =============== */
+/* =========================================== */
+
+footer {
+  background-color: rgba(15, 23, 42, 0.95);
+  border-top: 1px solid var(--border);
+  padding: 30px 5%;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
