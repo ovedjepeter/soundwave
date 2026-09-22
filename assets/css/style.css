@@ -74,6 +74,7 @@ nav .active {
   color: var(--text-light);
   background-color: var(--bg-card);
 }
+
 main {
   padding-top: calc(var(--header-height) + 40px);
   padding-bottom: 60px;
