@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soundwave - Audio &amp; Video</title>
+    <link rel="icon" href="/assets/images/images (1).jpg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: "#6366f1",
+                accent: "#818cf8",
+              },
+              "bg-dark": "#0f172a",
+              "bg-card": "#1e293b",
+              "text-light": "#f8fafc",
+              "text-muted": "#94a3b8",
+              border: "#334155",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="bg-bg-dark font-sans text-text-light antialiased leading-relaxed"
+  >
+    <!-- hearder section -->
+    <header
+      class="fixed top-0 left-0 w-full h-[70px] bg-bg-dark/85 backdrop-blur-md border-b border-border flex justify-between items-center px-[5%] z -50"
+    >
+      <a href="/index.html" class="text-2xl font-bold text-light">
+        Sound<span class="text-primary">Wave</span>
+      </a>
+      <nav>
+        <ul class="flex list-none">
+          <li>
+            <a
+              href="/index.html"
+              class="text-text-muted hover:text-text-light hover:bg-bg-card font-semibold px-4 py-2 rounded-md transiction-all duration-300"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="/index.html#about-us"
+              class="text-text-muted hover:text-text-light hover:bg-bg-card font-semibold px-4 py-2 rounded-md transiction-all duration-300"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="/gallery.html"
+              class="text-text-muted hover:text-text-light hover:bg-bg-card font-semibold px-4 py-2 rounded-md transiction-all duration-300"
+              >Gallery</a
+            >
+          </li>
+          <li>
+            <a
+              href="/media.html"
+              class="text-text-light bg-bg-card font-semibold px-4 py-2 rounded-md transiction-all duration-300"
+              >Audio & Video</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
