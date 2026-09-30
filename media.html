@@ -69,5 +69,91 @@
         </ul>
       </nav>
     </header>
+    <!-- hero section -->
+    <div
+      class="relative w-full h-[80vh] min-h-[500px] flex items-center justify-center text-center overflow-hidden mt-[70px]"
+    >
+      <video
+        autoplay
+        loop
+        muted
+        playsinline
+        class="absolute top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto z-10 -translate-x-1/2 -translate-y-1/2 object-cover"
+      >
+        <source
+          src="/assets/video/WhatsApp Video 2026-09-22 at 11.24.32.mp4"
+          type="video/mp4"
+        />
+        your browser does not support HTML5 video
+      </video>
+
+      <!-- dark tint overlay -->
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-[#0f172a]/25 via-[#0f172a]/45 to-bg-dark z-20"
+      ></div>
+
+      <div class="relative z-30 max-w-[800px] px-5">
+        <h1
+          class="text-3xl md:text-[3.2rem] font-extrabold mb-4 leading-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.7)]"
+        >
+          Imersive Audio &amp; Visual Experience
+        </h1>
+        <p
+          class="text-base md:text-x1 text-[#f1f5f9] mb-7 drop-shadow-[0_2px_10px_rgba(0,0,0,0.7)]"
+        >
+          Explore our curated collection of high-fidelity soundscapesc, lives
+          studio performance and video showcase.
+        </p>
+        <a
+          href="#media-section"
+          class="inline-block bg-primary hover:bg-primary-accent text-white px-7 py-3 rounded-lg font-semibold transiction-all durarion-200 hover:-translate-y-0.5"
+          >Browse Showcase</a
+        >
+      </div>
+    </div>
+
+    <!-- main media sector -->
+    <main
+      id="media-section"
+      class="pt-10 pd-[60px] max-w-[1100px] mx-auto- px-5"
+    >
+      <h2 class="text-2xl font-bold mb-6 border-l-4 border-primary pl-3">
+        Feature Videos
+      </h2>
+      <div
+        class="grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-6 mb-[60px]"
+      >
+        <div class="bg-bg-card border-border rounderd-xl p-5 flex-col gap-4">
+          <h3 class="text-lg font-bold text-text-light">
+            Studio Production Reel
+          </h3>
+          <video controls class="w-full rounded-lg outline-none">
+            <source
+              src="/assets/video/WhatsApp Video 2026-09-22 at 11.24.32.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          <p class="text-sm text-text-muted">
+            Behind-the-scenes footage from our main recording control room
+          </p>
+        </div>
+        <div class="bg-bg-card border-border rounderd-xl p-5 flex-col gap-4">
+          <h3 class="text-lg font-bold text-text-light">
+            Live Acounstics Demo
+          </h3>
+          <video controls class="w-full rounded-lg outline-none">
+            <source
+              src="/assets/video/WhatsApp Video 2026-09-22 at 11.24.32.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          <p class="text-sm text-text-muted">
+            Acouctis performance recorded with surround spatial microphone.
+          </p>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
