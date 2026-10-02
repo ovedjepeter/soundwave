@@ -115,7 +115,7 @@
     <!-- main media sector -->
     <main
       id="media-section"
-      class="pt-10 pd-[60px] max-w-[1100px] mx-auto- px-5"
+      class="pt-10 pb-[60px] max-w-[1100px] mx-auto px-5"
     >
       <h2 class="text-2xl font-bold mb-6 border-l-4 border-primary pl-3">
         Feature Videos
@@ -123,7 +123,7 @@
       <div
         class="grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-6 mb-[60px]"
       >
-        <div class="bg-bg-card border-border rounderd-xl p-5 flex-col gap-4">
+        <div class="bg-bg-card border-border rounded-xl p-5 flex-col gap-4">
           <h3 class="text-lg font-bold text-text-light">
             Studio Production Reel
           </h3>
@@ -138,7 +138,7 @@
             Behind-the-scenes footage from our main recording control room
           </p>
         </div>
-        <div class="bg-bg-card border-border rounderd-xl p-5 flex-col gap-4">
+        <div class="bg-bg-card border-border rounded-xl p-5 flex-col gap-4">
           <h3 class="text-lg font-bold text-text-light">
             Live Acounstics Demo
           </h3>
@@ -154,6 +154,51 @@
           </p>
         </div>
       </div>
+      <h3 class="text-2xl font-bold mb-6 border-l-4 border-primary pl-3">
+        Audio Tracks
+      </h3>
+      <div class="grid grid-cols-[repeat(auto-fit,minmax(320ps,1fr))] gap-6">
+        <div
+          class="bg-bg-card border border-border rounded-xl p-5 flex flex-col gap-4"
+        >
+          <h3 class="text-lg font-semiold text-text-light">
+            Ambient Synthensizer Track
+          </h3>
+          <p class="text-sm text-text-muted">
+            Relaxing analog synth arrangement mixed in Dolby Atmos space
+          </p>
+          <audio controls class="w-full rounded-lg outline-none">
+            <source
+              src="/assets/audio/mixkit-game-show-suspense-waiting-667.wav"
+            />
+          </audio>
+        </div>
+
+        <div
+          class="bg-bg-card border border-border rounded-xl p-5 flex flex-col gap-4"
+        >
+          <h3 class="text-lg font-semiold text-text-light">
+            Studio Guiter Session
+          </h3>
+          <p class="text-sm text-text-muted">
+            Raw acustic Guiter recording texting frequency ballance
+          </p>
+          <audio controls class="w-full rounded-lg outline-none">
+            <source
+              src="/assets/audio/mixkit-game-show-suspense-waiting-667.wav"
+            />
+          </audio>
+        </div>
+      </div>
     </main>
+
+    <!-- footer section -->
+    <footer
+      class="bg-bg-dark/95 border-t border-border py-[30px] px-[5%] text-center text-text-muted text-sm"
+    >
+      <p>
+        &copy; 2026 Soundwave Media Studio Built with HTML5 &amp; TailwindCSS
+      </p>
+    </footer>
   </body>
 </html>
